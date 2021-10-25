@@ -11,12 +11,12 @@
 
 //Let's write the vanilla JS code for the above
 const btn = document.querySelector('.btn');
+const submenu = document.querySelector('.submenu');
 
-btn.addEventListener('click', onClick);
+btn.addEventListener('click', show);
 
-function onClick() {
+function show() {
 
-document.querySelector('.submenu').classList.add('.active');
+submenu.classList.toggle('active');
 
 } 
-console.log(onClick());

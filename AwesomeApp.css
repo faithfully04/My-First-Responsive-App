@@ -62,9 +62,9 @@ h2 {
   background-color: #e67f0a;
 }
 .active {
-  display: block;
-  transform: translate(50%, 0);
-  transition: 0.5s;
+  display: block !important;
+  transform: translate(-50%, 0);
+  transition: translate 0.5s;
 }
 section {
   text-align: center;
